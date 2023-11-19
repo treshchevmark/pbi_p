@@ -417,7 +417,10 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "name": "sum_sales",
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -434,8 +437,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "expression": "CALCULATE(SUM(fact_sales[SalesAmount]))",
             "lineageTag": "164c726b-766d-4df8-bf54-8c97b0488ec8"
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
