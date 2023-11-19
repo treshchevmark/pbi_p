@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.40\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY22SU11\",\"version\":\"5.40\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.40\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY22SU11\",\"version\":\"5.40\",\"type\":2}},\"activeSectionIndex\":1,\"defaultDrillFilterOtherVisuals\":true,\"slowDataSourceSettings\":{\"isCrossHighlightingDisabled\":false,\"isSlicerSelectionsButtonEnabled\":false,\"isFilterSelectionsButtonEnabled\":false,\"isFieldWellButtonEnabled\":false,\"isApplyAllButtonEnabled\":false},\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
   "layoutOptimization": 0,
   "resourcePackages": [
     {
@@ -33,6 +33,27 @@
           "width": 613.74,
           "x": 498.97,
           "y": 162.43,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "Page 2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection5b4cc8557087d8577709",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"26e18869560028a2875d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":5.835866261398176,\"y\":0,\"z\":0,\"width\":439.6352583586626,\"height\":477.5683890577508}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"fact_sales.start_of_month.Variation.Date Hierarchy.Year\",\"active\":true},{\"queryRef\":\"fact_sales.start_of_month.Variation.Date Hierarchy.Quarter\",\"active\":true},{\"queryRef\":\"fact_sales.start_of_month.Variation.Date Hierarchy.Month\",\"active\":true},{\"queryRef\":\"fact_sales.start_of_month.Variation.Date Hierarchy.Day\",\"active\":true}],\"Y\":[{\"queryRef\":\"fact_sales.sum_sales\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"fact_sales\",\"Type\":0}],\"Select\":[{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variation\",\"Property\":\"start_of_month\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Year\"},\"Name\":\"fact_sales.start_of_month.Variation.Date Hierarchy.Year\",\"NativeReferenceName\":\"start_of_month Year\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variation\",\"Property\":\"start_of_month\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Quarter\"},\"Name\":\"fact_sales.start_of_month.Variation.Date Hierarchy.Quarter\",\"NativeReferenceName\":\"start_of_month Quarter\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variation\",\"Property\":\"start_of_month\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Month\"},\"Name\":\"fact_sales.start_of_month.Variation.Date Hierarchy.Month\",\"NativeReferenceName\":\"start_of_month Month\"},{\"HierarchyLevel\":{\"Expression\":{\"Hierarchy\":{\"Expression\":{\"PropertyVariationSource\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Name\":\"Variation\",\"Property\":\"start_of_month\"}},\"Hierarchy\":\"Date Hierarchy\"}},\"Level\":\"Day\"},\"Name\":\"fact_sales.start_of_month.Variation.Date Hierarchy.Day\",\"NativeReferenceName\":\"start_of_month Day\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"sum_sales\"},\"Name\":\"fact_sales.sum_sales\",\"NativeReferenceName\":\"sum_sales\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 477.57,
+          "width": 439.64,
+          "x": 5.84,
+          "y": 0.00,
           "z": 0.00
         }
       ],

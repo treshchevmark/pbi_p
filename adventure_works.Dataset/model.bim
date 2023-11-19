@@ -97,10 +97,6 @@
         "name": "fact_sales",
         "annotations": [
           {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
-          {
             "name": "PBI_ResultType",
             "value": "Table"
           }
@@ -416,6 +412,19 @@
           }
         ],
         "lineageTag": "c215edf0-d96b-4036-aa6f-18ad3b17c395",
+        "measures": [
+          {
+            "name": "sum_sales",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "CALCULATE(SUM(fact_sales[SalesAmount]))",
+            "lineageTag": "164c726b-766d-4df8-bf54-8c97b0488ec8"
+          }
+        ],
         "partitions": [
           {
             "name": "fact_sales-44deb9ee-dbae-4834-b0e3-fd1a64003016",
