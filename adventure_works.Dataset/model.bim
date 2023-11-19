@@ -414,15 +414,30 @@
         "lineageTag": "c215edf0-d96b-4036-aa6f-18ad3b17c395",
         "measures": [
           {
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "name": "sum_sales",
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+            "name": "sum_gross_margin",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
                 "value": "{\"isGeneralNumber\":true}"
               }
             ],
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
             "expression": "CALCULATE(SUM(fact_sales[SalesAmount]))",
             "lineageTag": "164c726b-766d-4df8-bf54-8c97b0488ec8"
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+            "expression": "CALCULATE(sum(fact_sales[gross_margin]))",
+            "lineageTag": "07779661-fe57-4ab8-b7d2-adb817a691ac"
           }
         ],
         "partitions": [
